@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransit.Kafka.Producer", "MassTransit.Kafka.Producer\MassTransit.Kafka.Producer.csproj", "{79B92D24-B012-4E87-AFCF-894387F85A71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransit.Kafka.Consumer", "MassTransit.Kafka.Consumer\MassTransit.Kafka.Consumer.csproj", "{8857456F-49CC-40F3-9F54-638C26FE28F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransit.Kafka.Shared", "MassTransit.Kafka.Shared\MassTransit.Kafka.Shared.csproj", "{A8472E55-6AE2-4545-9451-66D0D3A14B4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79B92D24-B012-4E87-AFCF-894387F85A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B92D24-B012-4E87-AFCF-894387F85A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B92D24-B012-4E87-AFCF-894387F85A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B92D24-B012-4E87-AFCF-894387F85A71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8857456F-49CC-40F3-9F54-638C26FE28F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8857456F-49CC-40F3-9F54-638C26FE28F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8857456F-49CC-40F3-9F54-638C26FE28F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8857456F-49CC-40F3-9F54-638C26FE28F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8472E55-6AE2-4545-9451-66D0D3A14B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8472E55-6AE2-4545-9451-66D0D3A14B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8472E55-6AE2-4545-9451-66D0D3A14B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8472E55-6AE2-4545-9451-66D0D3A14B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
